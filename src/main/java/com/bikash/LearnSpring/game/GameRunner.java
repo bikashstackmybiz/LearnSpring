@@ -8,7 +8,11 @@ public class GameRunner {
     @Autowired
     private GamingConsole game ;
 
-    public GameRunner(GamingConsole game) {
+//    public void setGame(GamingConsole game) {
+//        this.game = game;
+//    }
+
+        public GameRunner(GamingConsole game) {
         this.game = game;
     }
     public void runGame(){
